@@ -20,12 +20,33 @@
         .text-gradient {
             background: #121FCF;
             background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
-            -webkit-background-clip: text;  
+            -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
 
         }
+
         .text-blue {
             color: #1E30F3;
+        }
+
+        .block-button {
+            --bs-btn-padding-x: 7rem;
+        }
+
+        @media (max-width: 767.98px) {
+
+            /* Small devices */
+            .block-button {
+                --bs-btn-padding-x: 6.5rem;
+            }
+        }
+
+        @media (min-width: 992px) {
+
+            /* Large devices */
+            .block-button {
+                --bs-btn-padding-x: 3rem;
+            }
         }
     </style>
     <!-- aos animation -->
@@ -68,15 +89,17 @@
                 <div class="col-lg-6 col-md-12 col-sm-6 col-12 p-5">
                     <p class="fw-semibold gradient text-white text-center rounded">DESIGN . DEVELOPMENT . MARKETING</p>
                     <h1 class="display-6 text-secondary">I can help your business to</h1>
-                    <h1 class="display-2 fw-semibold text-gradient pb-3"data-aos="fade-right"data-aos-duration="1000">Get online and grow fast</h1>
-                    <a href="./resume.html" type="button" class="btn btn-primary fw-semibold"
-                        style="--bs-btn-padding-y: 1rem; --bs-btn-padding-x: 3rem; --bs-btn-font-size: 1rem;">Resume</a>
-                    <a href="./projects.html" type="button" class="btn btn-outline-dark fw-semibold ms-lg-4 "
-                        style="--bs-btn-padding-y: 1rem; --bs-btn-padding-x: 3rem; --bs-btn-font-size: 1rem;">Projects</a>
+                    <h1 class="display-2 fw-semibold text-gradient pb-3" data-aos="fade-right" data-aos-duration="1000">
+                        Get online and grow fast</h1>
+                    <a href="./resume.html" type="button" class=" block-button btn btn-primary fw-semibold"
+                        style="--bs-btn-padding-y: 1rem; --bs-btn-font-size: 1rem;">Resume</a>
+                    <a href="./projects.html" type="button"
+                        class=" block-button mt-lg-0 mt-4 btn btn-outline-dark fw-semibold ms-lg-4 "
+                        style="--bs-btn-padding-y: 1rem; --bs-btn-font-size: 1rem;">Projects</a>
                 </div>
                 <div class="col-lg-6 col-md-4 col-sm-6 col-12 pb-5">
-                    <img src="https://media.licdn.com/dms/image/v2/D5603AQEH0GfqsqzB6A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711695723453?e=1730937600&v=beta&t=WbJFxingFZebpZUg8IIuKh9B48C7hSHyqkShiogOjWU" alt="" class="w-75 rounded-circle ms-5 shadow-lg" data-aos="fade-up"
-                        data-aos-duration="1000">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQEH0GfqsqzB6A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711695723453?e=1730937600&v=beta&t=WbJFxingFZebpZUg8IIuKh9B48C7hSHyqkShiogOjWU"
+                        alt="" class="w-75 rounded-circle ms-5 shadow-lg" data-aos="fade-up" data-aos-duration="1000">
                 </div>
             </div>
         </div>
@@ -89,7 +112,8 @@
                     <h1 class="text-center display-5 fw-semibold text-gradient">About Me</h1>
                     <p class="display-2 text-black text-center " style="font-size: 1.5rem">My name is <span
                             class="text-gradient">Akhil G Krishnan</span> and I help brands grow.</p>
-                    <p class="display-2 text-muted text-center fw-semibold col-lg-6 mx-auto" style="font-size: .95rem">Lorem
+                    <p class="display-2 text-muted text-center fw-semibold col-lg-6 mx-auto" style="font-size: .95rem">
+                        Lorem
                         ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorum itaque qui unde quisquam
                         consequatur autem. Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa! Praesentium
                         ratione atque dolorem?</p>
@@ -117,7 +141,7 @@
                     <span><a href="#" class="me-3">Privacy</a></span>.
                     <span><a href="#" class="me-3">Terms</a></span>.
                     <span><a href="#" class="me-5">Contact</a></span>
-                    
+
                 </div>
             </div>
 
